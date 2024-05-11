@@ -1,10 +1,10 @@
 image:
-  repository: farberg/apache-hadoop
-  tag: 3.3.2
+  repository: renegate/apache-hadoop
+  tag: 3.4.0
   pullPolicy: IfNotPresent
 
 # The version of the hadoop libraries being used in the image.
-hadoopVersion: 3.3.2
+hadoopVersion: 3.4.0
 logLevel: INFO
 
 # Select antiAffinity as either hard or soft, default is soft
