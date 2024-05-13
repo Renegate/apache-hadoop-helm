@@ -45,6 +45,9 @@ hdfs:
   webhdfs:
     enabled: true
 
+  permissions:
+    enabled: false
+
 yarn:
   resourceManager:
     pdbMinAvailable: 1

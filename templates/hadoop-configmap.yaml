@@ -164,6 +164,13 @@ data:
       </property> 
 {{- end -}}
 
+{{- if not .Values.hdfs.permissions.enabled -}}
+      <property>
+          <name>dfs.permissions</name>
+          <value>flase</value>
+      </property>
+{{- end -}}
+
       <property>
         <name>dfs.datanode.use.datanode.hostname</name>
         <value>false</value>
